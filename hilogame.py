@@ -9,5 +9,5 @@ while play_again == "yes" :
 
 while int(gues) !=random_num:
     print("Incorrect! please try another number")  
-    if int(guess)>random_num:
+    if int(gues)>random_num:
         print()  

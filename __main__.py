@@ -1,3 +1,7 @@
-from director import Director
+from game import Game
 
-director=Director()
+print()
+print("Welcome to Hilo")
+print()
+game = Game()
+game.start_game()
