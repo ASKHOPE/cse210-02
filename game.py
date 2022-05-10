@@ -1,7 +1,4 @@
 from card import Card
-from guess import Guess
-from scores import Scores
-from play_update import Updates
 
 class Game:
     
