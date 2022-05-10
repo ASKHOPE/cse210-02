@@ -14,7 +14,7 @@ If a player has more than 0 points they decide if they want to keep playing. If 
 Make sure you have Python 3.8.0 or the latest installed and running on your machine. Open a terminal and 
 browse to the project's root folder. Start the program by running the following command.
 ```
-python3 dice 
+python3 Hilo
 ```
 You can also run the program from an IDE like Visual Studio Code or any other. Start your IDE and open the 
 project folder. Select the main module inside the hilo folder and click the "run" button.
