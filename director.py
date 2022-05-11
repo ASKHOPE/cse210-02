@@ -8,6 +8,9 @@ class Director:
 
     
     def inputs(self):
+        """Define the input to ask users if
+        they wish to play again.
+        """
         
         again_play=""
         while not again_play in ("y", "n"):
