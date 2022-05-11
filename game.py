@@ -1,14 +1,19 @@
+"""Import the card from the card file
+and call a game class to control the sequence of the game."""
 from card import Card
 
 class Game:
     
     def __init__(self):
+        """Define the init to get
+        an instance of a new director"""
         self.is_playing = True
         self.score = 300
         self.previous = 0
         self.rand_value= 0
         
     def start_game(self):
+        """Define start game to run the main file of the game"""
         card = Card()
         self.rand_value = card.get_random_card()
         while self.is_playing:
@@ -16,6 +21,10 @@ class Game:
             self.do_updates()
             
     def get_user_input(self):
+        """Define the get user input to ask users
+        which card they want to pick, add
+        an instance to run the loop statements
+        to know if the card is higher or lower."""
         print()
         input_loop = ""
         while input_loop != True:
@@ -41,6 +50,8 @@ class Game:
         self.update_score(pick_card)
 
     def update_score(self, pick_card):
+        """Define the update score
+        to display the player's score."""
       
         if pick_card.lower() == "h" and self.rand_value > self.previous:
             print(f"Next Card was: {self.rand_value}")
@@ -74,4 +85,3 @@ class Game:
                 #print('Thanks for playing. Goodbye.')
                 return
         print()
-    
