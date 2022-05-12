@@ -3,7 +3,15 @@ and call a game class to control the sequence of the game."""
 from card import Card
 
 class Game:
-    
+    """ Directing the hilo game process.
+
+    The responsibility of the game is to control the sequence of play including keeping track of the score.
+
+    Attributes:
+        is_playing (boolean): Looks for the players choice to play again or not.
+        score (int): The total score for the entire game is stored.
+        card (int): A randomly selected card out of 13 total distinct cards.
+    """
     def __init__(self):
         """Define the init to get
         an instance of a new director
