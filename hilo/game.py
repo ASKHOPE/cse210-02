@@ -6,14 +6,22 @@ class Game:
     
     def __init__(self):
         """Define the init to get
-        an instance of a new director"""
+        an instance of a new director
+        
+        Args:
+            self(Game): an instance of Game.
+        """
         self.is_playing = True
         self.score = 300
         self.previous = 0
         self.rand_value= 0
         
     def start_game(self):
-        """Define start game to run the main file of the game"""
+        """Define start game to run the main file of the game
+        
+         Args:
+            self(Game): an instance of Game.
+        """
         card = Card()
         self.rand_value = card.get_random_card()
         while self.is_playing:
@@ -24,7 +32,11 @@ class Game:
         """Define the get user input to ask users
         which card they want to pick, add
         an instance to run the loop statements
-        to know if the card is higher or lower."""
+        to know if the card is higher or lower.
+        
+         Args:
+            self(Game): an instance of Game.
+        """
         print()
         input_loop = ""
         while input_loop != True:
@@ -51,7 +63,11 @@ class Game:
 
     def update_score(self, pick_card):
         """Define the update score
-        to display the player's score."""
+        to display the player's score.
+        
+         Args:
+            self(Game): an instance of Game.
+        """
       
         if pick_card.lower() == "h" and self.rand_value > self.previous:
             print(f"Next Card was: {self.rand_value}")
@@ -66,6 +82,11 @@ class Game:
             self.score -= 75
             
     def do_updates(self):
+        """Check the choices made and the score to ask the player if he wants to play again or game over.
+        
+         Args:
+            self(Game): an instance of Game.
+            """
       
         if not self.is_playing:
             return

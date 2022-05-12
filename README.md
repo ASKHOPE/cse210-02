@@ -14,7 +14,7 @@ If a player has more than 0 points they decide if they want to keep playing. If 
 Make sure you have Python 3.8.0 or the latest installed and running on your machine. Open a terminal and 
 browse to the project's root folder. Start the program by running the following command.
 ```
-python3 Hilo
+python3 hilo
 ```
 You can also run the program from an IDE like Visual Studio Code or any other. Start your IDE and open the 
 project folder. Select the main module inside the hilo folder and click the "run" button.
@@ -26,6 +26,7 @@ The project files and folders are organized as follows:
 root                    (project root folder)
 +-- hilo                (source code for game)
   +-- game              (specific classes)
+  +-- card              (specific picks a card from 1 to 13)
   +-- __main__.py       (program entry point)
 +-- README.md           (general info)
 ```
@@ -36,8 +37,8 @@ root                    (project root folder)
 
 ## Authors
 ---
-* Arnold Sujan Katru (@byui.edu)
+* Arnold Sujan Katru (kat21015@byui.edu)
 * Sandra Asamoah Adeleye (sandrabyui)
 * Marcus Blanc (bla21011@byui.edu)
-*  Karrass Phiri (@byui.edu)
-*  Gabriel Guerrero Paredes (@byui.edu)
+* Karrass Phiri (phi21020@byui.edu)
+* Gabriel Guerrero Paredes (@byui.edu)
