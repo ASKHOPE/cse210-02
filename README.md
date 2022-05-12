@@ -38,7 +38,7 @@ root                    (project root folder)
 ## Authors
 ---
 * Arnold Sujan Katru (kat21015@byui.edu)
-* Sandra Asamoah Adeleye (sandrabyui)
+* Sandra Asamoah Adeleye (ade21006@byui.edu)
 * Marcus Blanc (bla21011@byui.edu)
 * Karrass Phiri (phi21020@byui.edu)
-* Gabriel Guerrero Paredes (@byui.edu)
+* Gabriel Guerrero Paredes (josegabrielguerrero26@byui.edu)
