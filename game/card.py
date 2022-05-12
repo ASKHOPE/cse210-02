@@ -2,12 +2,9 @@ import random
 # Call the random.choice function which will choose
 # one number from the numbers list. Store the chosen
 # number in a variable named number.
-# Author:Karrass
 
 
 class Card:
-  
-# Author:Karrass
 
     def __init__(self):
         self.rand_value = 0

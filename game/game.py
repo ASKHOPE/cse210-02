@@ -1,6 +1,6 @@
 """Import the card from the card file
 and call a game class to control the sequence of the game."""
-from card import Card
+from game.card import Card
 
 class Game:
     
