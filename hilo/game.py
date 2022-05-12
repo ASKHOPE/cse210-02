@@ -113,4 +113,7 @@ class Game:
                 self.is_playing = False
                 print('See you again thanks for playing. Goodbye.')
                 return
+            else:
+                print("Invalid Input. Please choose between Y for yes and N for No")
+                play_loop != True
         print()
