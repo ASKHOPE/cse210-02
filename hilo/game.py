@@ -103,6 +103,6 @@ class Game:
                 return
             elif play_again.lower() == "n":
                 self.is_playing = False
-                #print('Thanks for playing. Goodbye.')
+                print('See you again thanks for playing. Goodbye.')
                 return
         print()
