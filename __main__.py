@@ -1,5 +1,5 @@
 
-from game.game import Game
+from hilo.game import Game
 """Module is imported from game that enables the game to start from main.py file."""
 print()
 print("Welcome to Hilo")
